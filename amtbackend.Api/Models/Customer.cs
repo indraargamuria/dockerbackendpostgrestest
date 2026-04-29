@@ -7,6 +7,10 @@ public class Customer
     public string CustomerCode { get; set; } = "";
 
     public string Name { get; set; } = "";
+    
+    public string Email { get; set; } = "";
+    
+    public string Pin { get; set; } = "";
 
     public ICollection<DeliveryHeader> DeliveryHeaders
         { get; set; } = new List<DeliveryHeader>();
