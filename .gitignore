@@ -1,0 +1,64 @@
+# Build output
+bin/
+obj/
+
+# User / IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Environment secrets
+.env
+.env.*
+appsettings.Development.json
+secrets.json
+
+# EF local artifacts (optional)
+*.dbmdl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Docker build junk
+**/bin/
+**/obj/
+
+# NuGet
+packages/
+*.nupkg
+
+# Test output
+TestResults/
+
+# Publish output
+publish/
+
+# Node (if frontend later)
+node_modules/
+
+# Generated coverage
+coverage/
+
+# Optional local data folders
+postgres-data/
+data/
+
+# Visual Studio generated
+*.cache
+*.pdb
+
+# Keep migrations tracked
+#!Migrations/
