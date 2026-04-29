@@ -17,4 +17,5 @@ public class DeliveryLine
     public decimal QuantityReturned { get; set; }
 
     public decimal QuantityRejected { get; set; }
+    //Test
 }
